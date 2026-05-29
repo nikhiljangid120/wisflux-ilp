@@ -86,6 +86,6 @@ wisflux-ilp/
 ---
 
 ## 🔗 Connect
-- **LinkedIn:** [Nikhil Jangid](https://linkedin.com/in/nikhiljangid120)
+- **LinkedIn:** (https://www.linkedin.com/in/nikhil-jangid-b84360264/)
 - **Company:** Wisflux Tech Labs
 - **Joining Date:** June 1, 2026
