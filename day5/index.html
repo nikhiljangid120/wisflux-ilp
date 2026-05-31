@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nikhil Jangid — Developer Profile Card. Wisflux ILP Day 5." />
+    <title>Nikhil Jangid | Developer Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <span class="nav-logo">NJ.</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="about">
+      <div class="profile-card">
+        <div class="avatar">NJ</div>
+        <h1 class="profile-name">Nikhil Jangid</h1>
+        <p class="profile-role">Full Stack Developer</p>
+        <p class="profile-company">@ Wisflux Tech Labs</p>
+        <p class="profile-bio">
+          Passionate developer joining Wisflux on June 3rd, 2026.
+          Building things with React, NestJS, and TypeScript.
+        </p>
+        <div class="profile-badges">
+          <span class="badge">React</span>
+          <span class="badge">TypeScript</span>
+          <span class="badge">NestJS</span>
+          <span class="badge">PostgreSQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Frontend</h3>
+          <p>React, TypeScript, HTML, CSS, Flexbox, Grid</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>Backend</h3>
+          <p>NestJS, Node.js, REST APIs, Middleware, Guards</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Database</h3>
+          <p>PostgreSQL, Sequelize ORM, SQL queries</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🐳</div>
+          <h3>DevOps</h3>
+          <p>Docker, Git, GitHub, CLI, VS Code</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Say something..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p id="success-msg" class="success-msg hidden">✅ Message sent successfully!</p>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 Nikhil Jangid · Wisflux ILP Day 5</p>
+    </footer>
+
+    <script>
+      function handleSubmit(e) {
+        e.preventDefault();
+        document.getElementById("success-msg").classList.remove("hidden");
+        e.target.reset();
+      }
+    </script>
+
+  </body>
+</html>
