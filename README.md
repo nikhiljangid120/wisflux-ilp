@@ -1,7 +1,7 @@
 # 🚀 Wisflux ILP — Pre-Joining Study Journal
 **Nikhil Jangid | May 27 – June 5, 2026**
 
-> A 10-day intensive learning program covering the full Wisflux onboarding curriculum before joining the office on **June 1st, 2026**.
+> A 10-day intensive learning program covering the full Wisflux onboarding curriculum before joining the office on **June 3rd, 2026**.
 
 ---
 
@@ -88,4 +88,4 @@ wisflux-ilp/
 ## 🔗 Connect
 - **LinkedIn:** (https://www.linkedin.com/in/nikhil-jangid-b84360264/)
 - **Company:** Wisflux Tech Labs
-- **Joining Date:** June 1, 2026
+- **Joining Date:** June 3, 2026
