@@ -1,0 +1,28 @@
+# ── Node ────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ── Compiled TypeScript output ───────────────────
+*.js.map
+*.d.ts
+*.d.ts.map
+# (keep .js files only if they are hand-written, not compiled output)
+
+# ── Vite / Build output ──────────────────────────
+dist/
+build/
+.vite/
+
+# ── Environment variables ────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS / Editor ──────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json

@@ -14,7 +14,7 @@
 | 3 | May 29 | JavaScript Async + Lodash | ⏳ Pending | `day3/` |
 | 4 | May 30 | TypeScript + Node.js | ⏳ Pending | `day4/` |
 | 5 | May 31 | HTML + CSS | ✅ Done | `day5/` |
-| 6 | Jun 1 ⭐ | Git & GitHub + React Part 1 | ⏳ Pending | `day6/` |
+| 6 | Jun 1 ⭐ | Git & GitHub + React Part 1 | ✅ Done | `day6-react/` |
 | 7 | Jun 2 | React Part 2 | ⏳ Pending | `day6/` |
 | 8 | Jun 3 | NestJS | ⏳ Pending | `wisflux-api/` |
 | 9 | Jun 4 | PostgreSQL + Sequelize | ⏳ Pending | `wisflux-api/` |
